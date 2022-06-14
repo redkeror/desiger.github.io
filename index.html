@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A.A DESIGNER.COM</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+
+		<link rel="stylesheet" href="css/style.css" />
+
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZXJBVDf7R4JqmSpopVPoduIGWx1IwpBM"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	</head>
+	<body>
+	<div class="svg-wrap">
+      <svg width="64" height="64" viewBox="0 0 64 64">
+        <path id="arrow-left" d="M26.667 10.667q1.104 0 1.885 0.781t0.781 1.885q0 1.125-0.792 1.896l-14.104 14.104h41.563q1.104 0 1.885 0.781t0.781 1.885-0.781 1.885-1.885 0.781h-41.563l14.104 14.104q0.792 0.771 0.792 1.896 0 1.104-0.781 1.885t-1.885 0.781q-1.125 0-1.896-0.771l-18.667-18.667q-0.771-0.813-0.771-1.896t0.771-1.896l18.667-18.667q0.792-0.771 1.896-0.771z"></path>
+      </svg>
+
+      <svg width="64" height="64" viewBox="0 0 64 64">
+        <path id="arrow-right" d="M37.333 10.667q1.125 0 1.896 0.771l18.667 18.667q0.771 0.771 0.771 1.896t-0.771 1.896l-18.667 18.667q-0.771 0.771-1.896 0.771-1.146 0-1.906-0.76t-0.76-1.906q0-1.125 0.771-1.896l14.125-14.104h-41.563q-1.104 0-1.885-0.781t-0.781-1.885 0.781-1.885 1.885-0.781h41.563l-14.125-14.104q-0.771-0.771-0.771-1.896 0-1.146 0.76-1.906t1.906-0.76z"></path>
+      </svg>
+    </div>
+
+
+    <!-- MAIN CONTENT -->
+
+   <div class="container-fluid">
+
+    <!-- HEADER -->
+
+    <section id="header">
+
+      <!-- NAVIGATION -->
+      <nav class="navbar navbar-fixed-top navbar-default bottom">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#header">A.A DESIGNER</a>
+          </div><!-- /.navbar-header -->
+
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>              
+              <li><a href="#portfolio">Portfolio</a></li>
+			  <li><a href="#team">Team</a></li>
+			  <li><a href="#info">Info</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.container -->
+      </nav>
+
+      <!-- SLIDER -->
+      <div class="header-slide">
+        <section>
+          <div id="loader" class="pageload-overlay" data-opening="M 0,0 0,60 80,60 80,0 z M 80,0 40,30 0,60 40,30 z">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none">
+              <path d="M 0,0 0,60 80,60 80,0 Z M 80,0 80,60 0,60 0,0 Z"/>
+            </svg>
+          </div> <!-- /.pageload-overlay -->
+          
+          <div class="image-slide bg-fixed">
+            <div class="overlay">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+
+                    <div class="slider-content">
+                      <h1></h1>
+                      <p>We are a creative agency from the earth of karachi , pakistan</p>
+                    </div>
+
+                  </div> <!-- /.col-md-12 -->
+                </div> <!-- /.row -->
+              </div> <!-- /.container -->
+            </div> <!-- /.overlay -->
+          </div> <!-- /.image-slide -->
+
+          <nav class="nav-slide">
+            <a class="prev" href="#prev">
+              <span class="icon-wrap">
+                <svg class="icon" width="32" height="32" viewBox="0 0 64 64">
+                  <use xlink:href="#arrow-left">
+                </svg>
+              </span>
+              <div>
+                <span>Prev Photo</span>
+                <h3>...</h3>
+                <p>...</p>
+                <img alt="Previous thumb">
+              </div>
+            </a>
+            <a class="next" href="#next">
+              <span class="icon-wrap">
+                <svg class="icon" width="32" height="32" viewBox="0 0 64 64">
+                  <use xlink:href="#arrow-right">
+                </svg>
+              </span>
+              <div>
+                <span>Next Photo</span>
+                <h3>...</h3>
+                <p>...</p>
+                <img alt="Next thumb">
+              </div>
+            </a>
+          </nav>
+        </section>
+
+        <script type="text/javascript">
+        var dataHeader = [
+                            {
+                              bigImage :"images/slide-1.jpg",
+                              title : "MODERN DESIGN",
+
+                            },
+                            {
+                              bigImage :"images/slide-2.jpg",
+                              title : "MADE BY FOUR FRIENDS",
+                            },
+                            {
+                              bigImage :"images/slide-3.jpg",
+                              title : "Achieve Success",
+                            }
+                        ],
+            loaderSVG = new SVGLoader(document.getElementById('loader'), {speedIn : 600, speedOut : 600, easingIn : mina.easeinout});
+            loaderSVG.show()
+        </script>
+
+      </div><!-- /.header-slide -->
+    </section>
+
+    <!-- HEADER END -->
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="light">
+      <header class="title">
+        <h2>About <span>Us</span></h2>
+        <p>Discover Website Design About Us. Find Quick Results from Multiple Sources. Get Website Design  <strong>about us</strong></p>
+      </header>
+
+      <div class="container">
+        <div class="row table-row">
+          <div class="col-sm-6 hidden-xs">
+            <div class="section-content">
+              <div class="big-image" style="background-image:url(images/1.png)"></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="section-content">
+              <div class="about-content left animated" data-animate="fadeInLeft">
+                <div class="about-icon"><i class="fa fa-code"></i></div>
+                <div class="about-detail">
+                  <h4>Clean Code</h4>Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. ...
+                  <p>.</p>
+                </div>
+              </div>
+
+              <div class="about-content left animated" data-animate="fadeInLeft">
+                <div class="about-icon"><i class="fa fa-desktop"></i></div>
+                <div class="about-detail">
+                  <h4>Fully Responsive</h4>
+                  <p>Are you ready to learn responsive design? Our course takes you on a journey through the. A course exploring all aspects of responsive design</p>
+                </div>
+              </div>
+
+              <div class="about-content left animated" data-animate="fadeInLeft">
+                <div class="about-icon"><i class="fa fa-cube"></i></div>
+                <div class="about-detail">
+                  <h4>Multipurpose Design</h4>
+                  <p>Multipurpose spaces are most suitable when located between academic office areas and research spaces and ... More information about Building Fabric General ....</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.row table-row -->
+      </div> <!-- /.container -->
+    </section>
+	
+	
+	    <!-- PORTFOLIO -->
+
+    <section id="portfolio" class="light">
+      <header class="title">
+        <h2>Portfolio</h2>
+        <p>At FORTFOLIO LIMITED, we pride ourselves in offering our customers responsive, competent and excellent services</p>
+      </header>
+
+      <div class="container-fluid">
+        <div class="row">
+          <ul id="filters" class="list-inline">
+            <li data-filter="all" class="filter">All</li>
+            <li data-filter=".branding" class="filter">Branding</li> 
+            <li data-filter=".graphic" class="filter">Graphic</li> 
+            <li data-filter=".printing" class="filter">Printing</li> 
+            <li data-filter=".video" class="filter">DESIGNING</li> 
+          </ul>
+        </div>
+
+        <div class="row">
+          <div class="container-portfolio">
+            <!-- PORTFOLIO OBJECT -->
+            <script type="text/javascript">
+            var portfolio = [
+                    {
+                      category : "branding",
+                      image : "images/brand-1.jpg",
+                      title : "MODERN <span>DESIGN</span>",
+                      link : "#none",
+                      text : "A brand is a name, term, design, symbol or any other feature that distinguishes one seller's good or service from those of other sellers."
+                    },
+                    {
+                      category : "graphic",
+                      image : "images/grafics-1.jpg",
+                      title : "Fresh <span>DESIGN</span>",
+                      link : "#none",
+                      text : "In the context of signal processing, an image is a distributed amplitude of color"
+                    },
+                    {
+                      category : "graphic",
+                      image : "images/grafics-2.jpg",
+                      title : "UNIQUE <span>DESIGN</span>",
+                      link : "#none",
+                      text : "An image is an artifact that depicts visual perception, such as a photograph or other two-dimensional picture, that resembles a subject—usually a physical object—and thus provides a depiction of it. In the context of signal processing, an image is a distributed amplitude of color."
+                    },
+                    {
+                      category : "video",
+                      image : "images/11.png",
+                      title : "Strange <span></span>",
+                      link : "#none",
+                      text : "Computer programming is the process of performing a particular computation, usually by designing/building an executable computer program. Programming involves tasks such as analysis, generating algorithms, profiling algorithms' accuracy and resource consumption, and the implementation of algorithms.."
+                    },
+                    {
+                      category : "branding",
+                      image : "images/bran-2.png",
+                      title : "Free <span>DESIGN</span>",
+                      link : "#none",
+                      text : "A brand is a name, term, design, symbol or any other feature that distinguishes one seller's good or service from those of other sellers"
+                    },
+                    {
+                      category : "printing",
+                      image : "images/prin-1.jpg",
+                      title : "Chico <span>Silly</span>",
+                      link : "#none",
+                      text : "The way to do it is very easy, just upload your high quality graphic and then divide it into letter-sized chunks for printing. ."
+                    },
+                    {
+                      category : "printing",
+                      image : "images/prin-2.jpg",
+                      title : "IG <span>Shop</span>",
+                      link : "#none",
+                      text : "The way to do it is very easy, just upload your high quality graphic and then divide it into letter-sized chunks for printing. ."
+                    },
+                    {
+                      category : "printing",
+                      image : "images/prin-3.jpg",
+                      title : "FREE <span>PRINT</span>",
+                      link : "#none",
+                      text : "The way to do it is very easy, just upload your high quality graphic and then divide it into letter-sized chunks for printing. ."
+                    }
+                ];
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- TEAM -->
+
+    <section id="team" class="light">
+      <header class="title">
+        <h2>Creative <span>Team</span></h2>
+        <p>Get creative and unique web design services for your business. We have a team of creative and talented graphic designers in our web design company..</p>
+      </header>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown">
+              <div class="img-team">
+                <img src="images/arish2.jpg" alt="" class="img-circle">
+              </div>
+
+              <h3> M ARISH </h3>
+              <h5>DEVELOPER</h5>
+
+              <p>A computer programmer, sometimes called a software developer, a programmer or more recently a coder, is a person who creates computer software. The term computer programmer can refer to a specialist in one area of computers or to a generalist who writes computer programs</p>
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                  <li><a href="#" class="fa fa-linkedin"></a></li>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-google-plus"></a></li>
+                </ul> 
+              </div>                
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown"> 
+              <div class="img-team">
+                <img src="images/abd.jpg" alt="" class="img-circle">
+              </div>
+
+              <h3>M ABDULLAH</h3>
+              <h5>GRAPHIC DESIGNER</h5>
+
+              <p>Graphic design is the profession <br>and academic discipline whose activity consists in projecting Visual communications intended to transmit specific messages to social groups,   with   specific   objectives.   Design is based   on   the   principle of   "form follows a  specific function".<br>                         </p>
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                  <li><a href="#" class="fa fa-linkedin"></a></li>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-google-plus"></a></li>
+                </ul> 
+              </div>                
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown"> 
+              <div class="img-team">
+                <img src="images/akif.jpg" alt="" class="img-circle">
+              </div>
+
+              <h3>AKIF SARAIKI</h3>
+              <h5>DEVELOPER</h5>
+
+              <p>A computer programmer, sometimes called a software developer, a programmer or more recently a coder, is a person who creates computer software. The term computer programmer can refer to a specialist in one area of computers or to a generalist who writes computer programsss</p>
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                  <li><a href="#" class="fa fa-linkedin"></a></li>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-google-plus"></a></li>
+                </ul> 
+              </div>                
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown"> 
+              <div class="img-team">
+                <img src="images/maaz.jpg" alt="" class="img-circle">
+              </div>
+
+              <h3>MAAZ ZAKIR</h3>
+              <h5>DESIGNER</h5>
+
+              <p>A design is a plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process. The verb to design expresses the process of developing a design.+.</p>
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                  <li><a href="#" class="fa fa-linkedin"></a></li>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-google-plus"></a></li>
+                </ul> 
+              </div>                
+            </div>
+          </div>
+        </div>
+      </div> <!-- /.container -->
+    </section>
+	
+	    <!-- INFO -->
+
+    <section id="info" class="dark">
+      <header class="title">
+        <h2>Our <span>Experties</span></h2>
+        <p>An expert is somebody who has a broad and deep understanding and competence in terms of knowledge, skill and experience through practice and education in a particular field.</p>
+      </header>
+
+      <div class="container experties">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skill">
+              <ul class="skill-bar list-unstyled">
+                <li><span class="percentage" data-value="50%"></span><em>Branding</em></li>
+                <li><span class="percentage" data-value="95%"></span><em>Development</em></li>
+                <li><span class="percentage" data-value="22%"></span><em>Social</em></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="skill">
+              <ul class="skill-bar list-unstyled">
+                <li><span class="percentage" data-value="63%"></span><em>Graphic Design</em></li>
+                <li><span class="percentage" data-value="90%"></span><em>Consulting</em></li>
+                <li><span class="percentage" data-value="43%"></span><em>Logo</em></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /.container -->
+    </section>	
+	
+
+    <section class="separator blue">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="counter animated" data-animate="fadeInUp" data-delay="0">
+              <div class="counter-icon">
+                <i class="fa fa-group"></i>
+              </div>
+              <div class="counter-content">
+                <span class="value" data-from="0" data-to="43"></span>
+                <small>Clients</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="counter animated" data-animate="fadeInUp" data-delay="500">
+              <div class="counter-icon">
+                <i class="fa fa-leaf"></i>
+              </div>
+              <div class="counter-content">
+                <span class="value" data-from="0" data-to="20"></span>
+                <small>Awards</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="counter animated" data-animate="fadeInUp" data-delay="1000">
+              <div class="counter-icon">
+                <i class="fa fa-gears"></i>
+              </div>
+              <div class="counter-content">
+                <span class="value" data-from="0" data-to="34"></span>
+                <small>Projects</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="counter animated" data-animate="fadeInUp" data-delay="1500">
+              <div class="counter-icon">
+                <i class="fa fa-inbox"></i>
+              </div>
+              <div class="counter-content">
+                <span class="value" data-from="0" data-to="1298"></span>
+                <small>Mail</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FOOTER CONTACT -->
+
+     <section id="contact" class="dark">
+      <header class="title">
+        <h2>Contact <span>Us</span></h2>
+        <p>the name of a person submitting a document or of a person on whose behalf a document is being submitted;.</p>
+      </header>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 animated" data-animate="fadeInLeft">
+            <form action="#">
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="col-md-12">
+                  <textarea class="form-control" rows="3" placeholder="Tell Us Everything"></textarea>
+                </div>
+                <div class="col-md-12">
+                  <button class="btn btn-default submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-md-4 animated" data-animate="fadeInRight">
+            <address>
+                <span><i class="fa fa-map-marker fa-lg"></i> STREET 92 ,BLOCK 7 , LANDHI 6 , KARACHI</span>
+                <span><i class="fa fa-envelope-o fa-lg"></i>EMAIL :<br> MUHAMMADARISH09@gmail.com </span>
+                <span><i class="fa fa-envelope-o fa-lg"></i>EMAIL : MUHAMMADABDULLAH3864@gmail.com</span>
+		<span><i class="fa fa-envelope-o fa-lg"></i>EMAIL : <br>MAAZZAKIR@gmail.com</span>
+		<span><i class="fa fa-envelope-o fa-lg"></i>EMAIL :<br> AKIFLOHAR@gmail.com</span>
+
+            </address>
+          </div>
+		  
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Made BY <i class="fa fa-heart"></i>FOUR FRIENDS</p>
+            <p><small> MR-DESIGNER.COM</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   </div><!-- /.container-fluid -->
+    
+    <!-- SCRIPT -->
+    <script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
